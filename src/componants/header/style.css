@@ -1,0 +1,195 @@
+header {
+    position: fixed;
+    top: 0;
+    left:0; 
+    width: 100%;
+    min-height: 10vh;
+    z-index: 1000;
+    align-self: flex-start;
+}
+
+
+.container{
+position: relative;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+margin: 0em  ;
+
+padding: 0px 30px;
+
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.logo{
+    flex: 0 0 35%;
+    background-color: var(--main-color-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    height: 5%;
+
+}
+
+
+.logo-text{
+    line-height: 80px;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 2em;
+    color: var(--main-color-2);
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.items {
+    flex: 1;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    justify-self:end;
+    align-self:flex-end;
+    flex-direction: row;
+    margin-right: 30px  ;
+
+
+}
+
+.items ul {
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+
+.item{
+position: relative;
+display: inline-block;
+margin: 1em 1em;
+text-transform: uppercase;
+align-self: end;
+justify-self: end;
+color : #fff;
+transition: 0.4s ease-in-out;
+font-size: 1.2em;
+font-weight: 200;
+letter-spacing: 1.5px;
+cursor: pointer;
+
+}
+
+.item:hover{
+    color : var(--main-color-2);
+}
+
+.item::before{
+    content: '';
+    position:absolute;
+    width: 0;
+    height: 10%;
+    border-radius: 10px;
+    background-color: var(--heading-color) ;
+    left: -15%;
+    bottom: 20%;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.item:hover::before{
+    width: 130%;
+    height: 30%;
+    opacity: 0.4;
+
+}
+
+.scrolledNav{
+    background-color: var(--bg-color-transparent);
+    box-shadow: 0 5px 20px 0.1px rgba(0, 0, 0, 0.1) ;
+    backdrop-filter: blur(15px);
+}
+
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  margin-right: 1em;
+
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background-color: #ffffff;
+}
+
+
+@media (max-width:900px) {
+    .items {
+    position: fixed;
+    opacity: 0;
+    top: 10em;
+    right: 0;
+    gap: 0;
+    flex-direction: column;
+    background-color: var(--main-color-2);
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-right: 0px;
+    transition: 0.6s;
+    z-index: 10000;
+  }
+
+  .items ul {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    
+}
+
+   .hamburger {
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+   #hamActive{
+    transition: 0.6s ease-in-out;
+   }
+   #hamActive .bar:nth-child(2) {
+    opacity: 0;
+    
+  }
+  #hamActive .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+   #hamActive .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  #navActive {
+    opacity: 1;
+    transition: 0.5s;
+  }
+}

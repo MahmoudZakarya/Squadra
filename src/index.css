@@ -1,13 +1,99 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,800;0,900;1,300&display=swap');
+
+
+
+/* ---------------------------- Website Theme ------------------- */
+
+:root {
+  --hue-1: 238 ;
+  --hue-2: 47 ;
+  --bg-color: hsl(var(--hue-1), 86%, 27%);
+  --main-color-1: hsl(var(--hue-1), 100%, 55%);
+  --main-color-2: hsl(var(--hue-2), 100%, 55%);
+  --bg-color-transparent: rgba(255,255,255,0.2);
+  --heading-color: hsl(var(--hue-1), 61%, 55%);
+  --text-color: hsl(var(--hue-1), 14%, 65%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+/* ---------------------------- Main Styles --------------------- */
+*, *::before, *::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+  overflow-x: hidden;
+  background-color: var(--bg-color);
+  font-family: 'poppins', sans-serif;
+  
+}
+
+a{
+  text-decoration: none;
+
+}
+
+ul{
+  list-style: none;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+
+
+section {
+
+height: 100vh;
+width: 100vw;
+overflow: hidden;
+}
+
+.overlay{
+  position:absolute;
+  width: 100%;
+  height: 100vh;
+  background: var(--main-color-2);
+  top:0%;
+  z-index: 100000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.overlay h1 {
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 6.25em;
+  letter-spacing: 20px;
+}
+
+
+
+@media (max-width:1200px){
+  body{
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width:700px){
+  body{
+    font-size: 12px;
+  }
+}
+
+@media (max-width:480px){
+  body{
+    font-size: 8px;
+  }
 }
