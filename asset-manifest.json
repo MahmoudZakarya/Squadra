@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.1a790957.css",
-    "main.js": "/react-gh-pages/static/js/main.45eac723.js",
-    "static/js/787.994bc4bc.chunk.js": "/react-gh-pages/static/js/787.994bc4bc.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.1a790957.css.map": "/react-gh-pages/static/css/main.1a790957.css.map",
-    "main.45eac723.js.map": "/react-gh-pages/static/js/main.45eac723.js.map",
-    "787.994bc4bc.chunk.js.map": "/react-gh-pages/static/js/787.994bc4bc.chunk.js.map"
+    "main.css": "/squadra/static/css/main.1a790957.css",
+    "main.js": "/squadra/static/js/main.f07b42aa.js",
+    "static/js/787.994bc4bc.chunk.js": "/squadra/static/js/787.994bc4bc.chunk.js",
+    "index.html": "/squadra/index.html",
+    "main.1a790957.css.map": "/squadra/static/css/main.1a790957.css.map",
+    "main.f07b42aa.js.map": "/squadra/static/js/main.f07b42aa.js.map",
+    "787.994bc4bc.chunk.js.map": "/squadra/static/js/787.994bc4bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a790957.css",
-    "static/js/main.45eac723.js"
+    "static/js/main.f07b42aa.js"
   ]
 }
