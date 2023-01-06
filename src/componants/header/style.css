@@ -51,7 +51,8 @@ nav .container {
     font-size: 2em;
     color: var(--main-color-2);
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 600;
+    letter-spacing: 4px;
 }
 
 .items {
@@ -156,6 +157,7 @@ cursor: pointer;
     align-content: center;
     width: 100%;
     margin-right: 0px;
+    height: 40%;
     transition: 0.6s;
     z-index: 10000;
   }
@@ -191,5 +193,11 @@ cursor: pointer;
   #navActive {
     opacity: 1;
     transition: 0.5s;
+  }
+  .item{
+    color: #000;
+    z-index: 1000000;
+    font-size: 20px;
+    font-weight: 500;
   }
 }

@@ -7,11 +7,11 @@
 :root {
   --hue-1: 238 ;
   --hue-2: 47 ;
-  --bg-color: hsl(var(--hue-1), 86%, 27%);
-  --main-color-1: hsl(var(--hue-1), 100%, 55%);
-  --main-color-2: hsl(var(--hue-2), 100%, 55%);
+  --bg-color: hsl(11, 95%, 39%);
+  --main-color-1: hsl(11, 95%, 39%);
+  --main-color-2: hsl(60, 100%, 100%);
   --bg-color-transparent: rgba(255,255,255,0.2);
-  --heading-color: hsl(var(--hue-1), 61%, 55%);
+  --heading-color: hsl(11, 75%, 40%);
   --text-color: hsl(var(--hue-1), 14%, 65%);
 }
 

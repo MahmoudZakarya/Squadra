@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './style.css';
 import InfoCard from './info_card/info-card-componant';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 
 export default function ContactUs() {
@@ -11,7 +12,7 @@ export default function ContactUs() {
     const [message, setMessage] = useState('');
   return (
     <div>
-        <section className="contact-section">
+        <section className="contact-section" id='contactus'>
             <div className="contact-wrapper">
             <div className="contact-title">
                 <h3 className="title">Contact Us</h3>
@@ -19,10 +20,9 @@ export default function ContactUs() {
             <div className="contact-form-wrapper">
             <div className="contact-container">
                 <div className="info">
-                    <InfoCard icon={faPhone}text="01226533784"/>
-                    <InfoCard icon={faPhone} text="01226533784"/>
-                    <InfoCard icon={faPhone} text="01226533784"/>
-                </div>
+                    <InfoCard icon={faPhone}text="01000000000"/>
+                    <InfoCard icon={faEnvelope} text="squadrastandupteam@gmail.com"/>
+                    </div>
                 </div>
             <div className="form-container">
             <form action="">

@@ -22,10 +22,10 @@ const Header = () => {
 
         <div className="items" id={hamburgerisActive ? `navActive` : ` `}>
         <ul>
-            <li><a href="#" className='item' onClick={menuClick}>Home</a></li>
+            <li><a href="#home" className='item' onClick={menuClick}>Home</a></li>
             <li><a href="#latest" className='item' onClick={menuClick}>Latest</a></li>
-            <li><a href="#" className='item' onClick={menuClick}>Team</a></li>
-            <li><a href="#" className='item' onClick={menuClick}>Contact Us</a></li>
+            <li><a href="#team" className='item' onClick={menuClick}>Team</a></li>
+            <li><a href="#contactus" className='item' onClick={menuClick}>Contact Us</a></li>
         </ul>
         </div>
 

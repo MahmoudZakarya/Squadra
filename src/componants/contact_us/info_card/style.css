@@ -1,13 +1,15 @@
 .info-card{
     min-width: 150px;
     margin: 0px 20px 20px ;
-    background-color: rgb(131, 125, 0);
+    background-color: hsl(263, 52%, 40%);
     display: flex;
     flex-direction: row;
     padding:  10px 25px;
     border-radius: 8px;
     align-self: center;
     justify-self: center;
+    align-items: flex-start;
+    justify-content: start;
 
 }
 
@@ -16,7 +18,7 @@
     background-color: rgba(0, 0, 0, 0.3);
     padding: 10px 15px;
     border-radius:50% ;
-    margin-right: 30px;
+    margin-right: 20px;
     font-size: 20px;
 
 }
@@ -24,7 +26,8 @@
 .contact-text{
 
     display:inline-block;
-
+    position: relative;
+    font-size: 12px;
     align-self: center;
     letter-spacing: 2px;
     font-weight: 700;
@@ -36,8 +39,29 @@
 
 @media (max-width:720px) {
     .info-card{
-    margin: 0px 40px 20px ;
+    margin: 0px 0px 20px ;
+    padding:  10px 10px;
     
+
+}
+.contact-text{
+font-size: 10px;
+}
+.info-icon{
+    font-size: 10px;
+
+}
+}
+
+@media (max-width:480px) {
+    .contact-text{
+font-size: 8px;
+font-weight: 600;
+}
+.info-icon{
+    font-size: 8px;
+    margin-right: 5px;
+
 
 }
 }

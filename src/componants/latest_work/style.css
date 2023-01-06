@@ -13,7 +13,7 @@
   position: absolute;
 }
 .latest-section {
-    background-color: var(--main-color-2);
+    background-color: hsl(263, 52%, 40%);
     padding: 60px 20px 20px;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@
 .latest-container {
     width: 100%;
     height: 100%;
-    background-color: rgb(186, 165, 6);
+    background-color:hsl(263, 52%, 30%);
     padding: 10px 40px 40px;
 
 
