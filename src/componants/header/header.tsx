@@ -1,4 +1,4 @@
-import React, {  useEffect , useState} from 'react';
+import React, {  useState} from 'react';
 import './style.css' ;
 
 
@@ -16,7 +16,7 @@ const Header = () => {
 
         <nav className="container">
         <div className='logo'>
-          <a href='#' className="logo-text">squadra</a>
+          <a href='#' className="logo-text" onClick={()=>window.location.reload()}>squadra</a>
         </div>
         
 

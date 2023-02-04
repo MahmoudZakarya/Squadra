@@ -1,5 +1,4 @@
-import { faFacebook, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import React from 'react'
 import './style.css'
 
@@ -19,7 +18,7 @@ export default function Footer() {
                     <h3 className="title">Squadra</h3>
                 </div>
                 <div className="copyrights">
-                    <span>©2022 SQUADRA</span>
+                    <span>©2023 SQUADRA</span>
                 </div>
             </div>
         </section>

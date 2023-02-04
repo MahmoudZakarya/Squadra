@@ -7,7 +7,7 @@ import { faFacebook, faYoutube, faInstagram } from '@fortawesome/free-brands-svg
 
 const Main = () => {
   return (
-    <div>
+   
         <section className="main-section" id='home'>
             <div className="main-container">
               <img src={process.env.PUBLIC_URL + "/curtains.jpg"} alt="backgroung" className='background' />
@@ -39,7 +39,7 @@ const Main = () => {
               </div>
             </div>
         </section>
-    </div>
+    
   )
 }
 

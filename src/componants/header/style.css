@@ -40,7 +40,7 @@ nav .container {
     align-items: center;
     text-align: center;
     width: 20%;
-    height: 5%;
+    height: 4%;
 
 }
 
@@ -145,6 +145,7 @@ cursor: pointer;
     .items {
     position: fixed;
     opacity: 0;
+    visibility: hidden;
     top: 10em;
     right: 0;
     gap: 0;
@@ -191,8 +192,9 @@ cursor: pointer;
   }
 
   #navActive {
+    visibility: visible;
     opacity: 1;
-    transition: 0.5s;
+    transition: visibility 0s , opacity 0.5s;
   }
   .item{
     color: #000;

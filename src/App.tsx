@@ -10,9 +10,7 @@ import TeamSection from './componants/team/team_section';
 import ContactUs from './componants/contact_us/contact-us';
 import Footer from './componants/footer/footer';
 function App() {
-    const overlayStyle = {
-      "font-weight":200}
-      ;
+ 
   gsap.registerPlugin(ScrollTrigger);
   const timeline = gsap.timeline();
 
@@ -33,7 +31,7 @@ function App() {
           ease: Expo.easeInOut,
         }).fromTo(".overlay " ,{}, {
           duration: 2 ,
-          top: "-100%", 
+          top: "-140%", 
           ease: Expo.easeInOut,
         }).fromTo(".ellipse-container " , {
           duration: 1 ,

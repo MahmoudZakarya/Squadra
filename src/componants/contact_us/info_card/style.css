@@ -1,5 +1,5 @@
 .info-card{
-    min-width: 150px;
+    min-width: 190px;
     margin: 0px 20px 20px ;
     background-color: hsl(263, 52%, 40%);
     display: flex;
@@ -39,7 +39,7 @@
 
 @media (max-width:720px) {
     .info-card{
-    margin: 0px 0px 20px ;
+    margin: 0px 25px 20px ;
     padding:  10px 10px;
     
 
@@ -64,4 +64,23 @@ font-weight: 600;
 
 
 }
+}
+
+
+@media (max-width:380px) {
+    .info-card{
+        margin: 0px 0px 20px 0px ;
+        justify-content: center;
+    }
+    .contact-text{
+font-size: 0.5rem;
+font-weight: 600;
+}
+.info-icon{
+    font-size: 0.4rem;
+    padding: 5px 7.5px;
+    margin-right: 4px;
+
+}
+
 }
