@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Squdra/static/css/main.e78eb5ec.css",
-    "main.js": "/Squdra/static/js/main.c1da5332.js",
-    "static/js/787.994bc4bc.chunk.js": "/Squdra/static/js/787.994bc4bc.chunk.js",
-    "index.html": "/Squdra/index.html",
-    "main.e78eb5ec.css.map": "/Squdra/static/css/main.e78eb5ec.css.map",
-    "main.c1da5332.js.map": "/Squdra/static/js/main.c1da5332.js.map",
-    "787.994bc4bc.chunk.js.map": "/Squdra/static/js/787.994bc4bc.chunk.js.map"
+    "main.css": "/Squadra/static/css/main.e78eb5ec.css",
+    "main.js": "/Squadra/static/js/main.69255ca0.js",
+    "static/js/787.994bc4bc.chunk.js": "/Squadra/static/js/787.994bc4bc.chunk.js",
+    "index.html": "/Squadra/index.html",
+    "main.e78eb5ec.css.map": "/Squadra/static/css/main.e78eb5ec.css.map",
+    "main.69255ca0.js.map": "/Squadra/static/js/main.69255ca0.js.map",
+    "787.994bc4bc.chunk.js.map": "/Squadra/static/js/787.994bc4bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e78eb5ec.css",
-    "static/js/main.c1da5332.js"
+    "static/js/main.69255ca0.js"
   ]
 }
