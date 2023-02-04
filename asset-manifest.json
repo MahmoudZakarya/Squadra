@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Squadra/static/css/main.e78eb5ec.css",
-    "main.js": "/Squadra/static/js/main.69255ca0.js",
+    "main.css": "/Squadra/static/css/main.579cdcff.css",
+    "main.js": "/Squadra/static/js/main.c84e3f26.js",
     "static/js/787.994bc4bc.chunk.js": "/Squadra/static/js/787.994bc4bc.chunk.js",
     "index.html": "/Squadra/index.html",
-    "main.e78eb5ec.css.map": "/Squadra/static/css/main.e78eb5ec.css.map",
-    "main.69255ca0.js.map": "/Squadra/static/js/main.69255ca0.js.map",
+    "main.579cdcff.css.map": "/Squadra/static/css/main.579cdcff.css.map",
+    "main.c84e3f26.js.map": "/Squadra/static/js/main.c84e3f26.js.map",
     "787.994bc4bc.chunk.js.map": "/Squadra/static/js/787.994bc4bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e78eb5ec.css",
-    "static/js/main.69255ca0.js"
+    "static/css/main.579cdcff.css",
+    "static/js/main.c84e3f26.js"
   ]
 }
